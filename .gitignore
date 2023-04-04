@@ -1,0 +1,3 @@
+__pycache__/
+.env
+utils/pinecone_client.py

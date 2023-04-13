@@ -23,8 +23,8 @@ chain = VectorDBQAWithSourcesChain.from_llm(
 
 
 # From here down is all the StreamLit UI.
-st.set_page_config(page_title="Blendle Notion QA Bot", page_icon=":robot:")
-st.header("Blendle Notion QA Bot")
+st.set_page_config(page_title="NLP Book QA Bot", page_icon=":robot:")
+st.header("NLP Book QA Bot")
 
 if "generated" not in st.session_state:
     st.session_state["generated"] = []

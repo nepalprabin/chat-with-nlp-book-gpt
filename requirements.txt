@@ -1,0 +1,7 @@
+langchain
+streamlit
+streamlit-chat
+faiss
+pickle
+python-dotenv
+PyPDF2

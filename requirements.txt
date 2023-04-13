@@ -1,7 +1,7 @@
 langchain
 streamlit
 streamlit-chat
-faiss
+faiss-gpu
 pickle
 python-dotenv
 PyPDF2

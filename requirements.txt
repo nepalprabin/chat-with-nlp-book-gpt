@@ -5,3 +5,4 @@ PyPDF2==3.0.1
 python-dotenv
 streamlit==1.20.0
 streamlit-chat
+transformers

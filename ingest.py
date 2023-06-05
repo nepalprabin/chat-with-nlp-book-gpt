@@ -1,7 +1,7 @@
 from glob import glob
 import pickle
 
-from langchain.text_splitter import CharacterTextSplitter
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 import faiss
 from langchain.vectorstores import FAISS
 from utils.pdf_loader import parsePDF
@@ -21,7 +21,7 @@ for data in data_files:
 
 
 # splitting data into smaller contexts
-text_splitter = CharacterTextSplitter(chunk_size=3000, separator='\n')
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000)
 
 docs = []
 metadata = []

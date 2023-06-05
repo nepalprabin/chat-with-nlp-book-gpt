@@ -1,6 +1,6 @@
 openai
 faiss-cpu==1.7.3
-langchain
+langchain==0.0.144
 PyPDF2==3.0.1
 python-dotenv
 streamlit==1.20.0
